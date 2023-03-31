@@ -1,0 +1,16 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    height: 80vh;
+    font-family: monospace;
+    background-color: #333333;
+    color: rgb(49, 181, 49)
+}
+
+header {
+    height: 20vh;
+    background-color: #3c3b3b;
+}
