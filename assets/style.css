@@ -50,6 +50,7 @@ header {
 .score {
     background: #243b31;
     display: flex;
+    justify-content: center;
     width: 70%;
     height: 8rem;
     border: 1px dashed rgb(49, 181, 49);
@@ -59,6 +60,7 @@ header {
 .clock {
     background: #243b31;
     display: flex;
+    justify-content: center;
     width: 70%;
     height: 6rem;
     border: 1px dashed rgb(49, 181, 49);
