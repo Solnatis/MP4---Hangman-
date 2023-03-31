@@ -4,6 +4,7 @@
 }
 
 body {
+    align-items: ;
     height: 80vh;
     font-family: monospace;
     background-color: #333333;
@@ -11,6 +12,55 @@ body {
 }
 
 header {
+    font-size: 5rem;
     height: 20vh;
     background-color: #3c3b3b;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 30rem;
+    border: 1px dashed rgb(49, 181, 49);
+    border-radius: 5px;
+}
+
+.word {
+    background: #243b35;
+    display: flex;
+    width: 60%;
+    height: 25rem;
+    border: 1px dashed rgb(49, 181, 49);
+    border-radius: 5px;
+}
+
+.sc-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 25rem;
+    border: 1px dashed rgb(49, 181, 49);
+    
+}
+
+.score {
+    background: #243b31;
+    display: flex;
+    width: 70%;
+    height: 8rem;
+    border: 1px dashed rgb(49, 181, 49);
+    border-radius: 5px;
+}
+
+.clock {
+    background: #243b31;
+    display: flex;
+    width: 70%;
+    height: 6rem;
+    border: 1px dashed rgb(49, 181, 49);
+    border-radius: 5px;
 }
